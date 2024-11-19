@@ -1,0 +1,217 @@
+@import url("./font.css");
+
+/* Centered form container with a light background */
+
+.WhoAreWe_section .WhoAreWe_part .title_part{
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+
+.WhoAreWe_section .WhoAreWe_part .heading{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Segoe UI';
+    color:#2973AB;
+    margin-bottom: 24px;
+    
+}
+.WhoAreWe_section .WhoAreWe_part .Body-B1{
+     
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 400; 
+    text-align: left;
+    color: #637381;
+   
+    
+    
+}
+
+.form_box{
+  padding: 40px;
+}
+
+.form-container {
+    background-color: #FDEEE580;
+    
+  }
+  
+
+  .form-container input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #212B36;
+    background-color: #FDEEE580;
+  }
+ 
+  .form-container input:focus {
+    color: #212B36;
+    background-color: #FDEEE580;
+    box-shadow: none;
+    border: 1px solid transparent;
+  }
+  
+  .steer_btn {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  .steer_btn button {
+    background-color: var(--button-bg-color);
+    border: var(--button-bg-color);
+    padding: 12px 12px 12px 25px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+
+  }
+  .steer_btn button img {
+        padding: 8px;
+  }
+  
+ 
+
+  /* Style for the contact card container */
+
+.WhoAreWe_part .Get_in_toch {
+    margin-top: 120px;
+}
+.WhoAreWe_part .Get_in_toch .heading{
+    
+    font-family: 'Segoe UI';
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    color: #2973AB;
+    margin-bottom: 24px;
+
+}   
+.WhoAreWe_part .Get_in_toch .Body-B1{
+    
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 400;
+    color: #637381;
+    margin-bottom: 64px;
+
+
+}
+.contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .contact-card img{
+    height: auto;
+    width: 25%;
+
+  }
+
+  .contact-card h5{
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      font-family:' Segoe UI';
+      color: #212B36;
+      margin-top: 24px;
+
+  }
+
+  .contact-card p{
+      margin-bottom: 16px;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      font-family: 'Segoe UI';
+      color: #637381;
+
+  }
+  
+  .contact-card:hover {
+    background-color: #ff8c42;
+    color: #fff;
+  }
+  .contact-card:hover h5 {
+     color: #fff;
+  }
+  
+  .contact-card:hover p {
+     color: #fff;
+  }
+  
+  .contact-title {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+
+    
+      h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+  
+   
+      .contact-card {
+          padding: 15px;
+        }
+      
+  
+    .WhoAreWe_section .WhoAreWe_part .heading {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .WhoAreWe_section .WhoAreWe_part .title_part {
+      margin-bottom: 47px;
+      margin-top: 30px;
+  }
+
+  .WhoAreWe_part .Get_in_toch {
+    margin-top: 60px;
+}
+}
+
+
+@media (max-width: 421px) {
+
+  .WhoAreWe_section .WhoAreWe_part .heading {
+    font-size: 40px;
+  }
+
+  .WhoAreWe_section .WhoAreWe_part .Body-B1 {
+    font-size: 13px;
+}
+
+.steer_btn button {
+  padding: 10px 10px 10px 22px;
+  font-size: 15px;
+ 
+}
+}
+
+ 

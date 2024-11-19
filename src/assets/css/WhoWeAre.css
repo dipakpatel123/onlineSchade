@@ -1,0 +1,199 @@
+@import url("./font.css");
+
+.whoweare_section .Who_We_are_part .title_part{
+    margin-top: 64px;
+}
+
+.whoweare_section .Who_We_are_part .title_part .heading{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Segoe UI';
+    color:#2973AB;
+    margin-bottom: 64px;
+}
+
+.whoweare_section .Who_We_are_part .title_part .heading1{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Segoe UI';
+    color:#2973AB;
+    margin-bottom: 24px;
+    width: 13%;
+}
+.whoweare_section .Who_We_are_part .who_we_are_img img{
+     height: auto;
+     width: 100%;
+}
+
+.whoweare_section .Who_We_are_part .title_part .dispriction{
+    display: flex;
+    gap: 24px;
+}
+.whoweare_section .Who_We_are_part .title_part .dispriction p{
+     width: 46%;
+     color: #637381;
+}
+
+.whoweare_section .Who_We_are_part .experience{
+    background-color: #FDEEE580;
+    position: relative;
+    padding: 68px 103px;
+    border-radius: 10px;
+    margin-top: 120px;
+}
+
+.whoweare_section .Who_We_are_part .ellipse_top{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .whoweare_section .Who_We_are_part .ellipse_bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+.whoweare_section .Who_We_are_part .ellipse_top img{
+    width: 60%;
+  }
+  .whoweare_section .Who_We_are_part .ellipse_bottom img{
+     width: 230px;
+  }
+
+  
+.whoweare_section .Who_We_are_part .experience h2{
+    font-family: 'Segoe UI';
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: #F47B34;
+    
+}
+.whoweare_section .Who_We_are_part .experience .btn_contact{
+            display: flex;
+            justify-content: center;
+}
+.whoweare_section .Who_We_are_part .experience .btn_contact button{
+        background-color: #F47B34;
+        border: #F47B34;
+        color: white;
+        font-family: 'Segoe UI';
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+        padding: 12px 12px 12px 16px;
+        border-radius: 10px;
+        margin-top: 40px;
+
+}
+.whoweare_section .Who_We_are_part .experience .btn_contact button img{
+        padding: 8px;
+         
+}
+
+
+@media (max-width: 1400px) {
+
+    .whoweare_section .Who_We_are_part .title_part .heading1 {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .whoweare_section .Who_We_are_part .ellipse_bottom img {
+        width: 190px;
+    }
+
+    .whoweare_section .Who_We_are_part .ellipse_top img {
+        width: 54%;
+    }
+}
+
+@media (max-width: 770px) {
+    .whoweare_section .Who_We_are_part .ellipse_top img {
+        width: 28%;
+    }
+
+    .whoweare_section .Who_We_are_part .ellipse_bottom img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .whoweare_section .Who_We_are_part .ellipse_top img {
+        width: 0px;
+    }
+
+    .whoweare_section .Who_We_are_part .ellipse_bottom img {
+        width: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .whoweare_section .Who_We_are_part .title_part {
+        margin-top: 30px;
+    }
+
+    .whoweare_section .Who_We_are_part .title_part .heading {
+       margin-bottom: 30px;
+    }
+
+    .whoweare_section .Who_We_are_part .title_part .heading {
+        font-size: 40px;
+        width: 100%;
+       
+    }
+
+    .whoweare_section .Who_We_are_part .title_part .heading1 {
+        font-size: 40px;
+    }
+
+    .whoweare_section .Who_We_are_part .title_part .dispriction {
+         flex-direction: column;
+    }
+
+    .whoweare_section .Who_We_are_part .title_part .dispriction p {
+        width: 100%;
+         
+    }
+
+    .whoweare_section .Who_We_are_part .experience {
+        padding: 12px 12px;
+        margin-top: 60px;
+    }
+
+    .whoweare_section .Who_We_are_part .experience h2 {
+        font-size: 35px;
+        
+    }
+
+
+}
+
+
+@media (max-width: 421px) {
+
+    .whoweare_section .Who_We_are_part .title_part .heading {
+        font-size: 32px;
+         
+       
+    }
+
+    .whoweare_section .Who_We_are_part .title_part .heading1 {
+        font-size: 32px;
+    }
+
+    .whoweare_section .Who_We_are_part .experience h2 {
+        font-size: 30px;
+    }
+
+    .whoweare_section .Who_We_are_part .experience .btn_contact button {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+}

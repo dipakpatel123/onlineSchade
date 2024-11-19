@@ -1,0 +1,103 @@
+@import url("./font.css");
+
+.contact_section .contact_part .title_part {
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+
+.contact_section .contact_part .title_part .heading {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Segoe UI';
+    color: #2973AB;
+    margin-bottom: 24px;
+}
+
+.contact_section .contact_part .title_part .Body-B1 {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #637381;
+}
+
+.contact_section .contact_part select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #212B36;
+    background-color:#FDEEE580;
+     
+
+}
+
+.contact_section .contact_part select option {
+    color: #212B36;
+}
+
+.contact_section .contact_part select:focus {
+    color: #212B36;
+    background-color: #FDEEE580;
+    border: none;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.contact_section .contact_part .map {
+    margin-top: 64px;
+    
+}
+.contact_section .contact_part .map iframe{
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .contact_section .contact_part .title_part {
+        margin-bottom: 47px;
+        margin-top: 30px;
+    }
+
+    .contact_section .contact_part .title_part .heading {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .Get_in_toch {
+        margin-top: 60px;
+    }
+
+    .Get_in_toch .heading {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .contact-card {
+        height: 236px;
+
+    }
+
+
+}
+
+
+@media (max-width: 521px) {
+
+    .contact_section .contact_part .title_part .Body-B1 {
+        font-size: 13px;
+    }
+
+    .Get_in_toch .Body-B1 {
+        font-size: 13px;
+    }
+
+
+}

@@ -1,0 +1,134 @@
+@import url("./font.css");
+
+
+.Get_in_toch {
+    margin-top: 120px;
+}
+ .Get_in_toch .heading{
+    
+    font-family: 'Segoe UI';
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    color: #2973AB;
+    margin-bottom: 24px;
+
+}   
+.Get_in_toch .Body-B1{
+    
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 400;
+    /* text-align: left; */
+    color: #637381;
+    margin-bottom: 64px;
+
+
+}
+.contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .contact-card img{
+    height: auto;
+    width: 25%;
+
+  }
+
+  .contact-card h5{
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      font-family:'Segoe UI';
+      color: #212B36;
+      margin-top: 24px;
+
+  }
+
+  .email-link {
+    color: #637381; /* Change to your preferred color */
+    text-decoration: none;
+}
+.email-link:hover {
+    text-decoration: underline;
+    
+}
+
+.phone-link {
+  color: #637381; /* Change to your preferred color */
+  text-decoration: none;
+}
+.phone-link:hover {
+  text-decoration: underline;
+}
+
+
+
+  .contact-card p{
+      margin-bottom: 16px;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      font-family: 'Segoe UI';
+      color: #637381;
+
+  }
+  
+  .contact-card:hover {
+    background-color: #ff8c42;
+    color: #fff;
+  }
+  .contact-card:hover h5 {
+     color: #fff;
+  }
+  
+  .contact-card:hover p {
+     color: #fff;
+  }
+
+  .contact-card:hover .email-link{
+    color: #fff;
+  }
+
+  .contact-card:hover .phone-link{
+    color: #fff;
+  }
+
+  .contact-card:hover:hover svg{
+    fill: white;
+    
+  }
+  .contact-card:hover:hover svg path{
+    fill: white;
+    
+  }
+  .contact-card:hover:hover circle{
+    fill: rgb(139, 39, 104);
+
+  }
+  
+  .contact-card:hover img{
+    color: white;
+  }
+  .contact-title {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+
+  @media (max-width: 768px) {
+    
+    .contact-card {
+        padding: 15px;
+      }
+      
+  }

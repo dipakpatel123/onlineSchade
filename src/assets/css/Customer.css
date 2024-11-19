@@ -1,0 +1,30 @@
+@import url("./font.css");
+
+.customer_section .customer_part .customer_heading h1 {
+    color: #2973AB;
+    font-family: 'Segoe UI';
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+}
+
+.customer_section .customer_part .customer_img img {
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .customer_section .customer_part .customer_heading h1 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 33px;
+        margin-bottom: 30px;
+    }
+}

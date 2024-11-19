@@ -1,0 +1,241 @@
+@import url("./font.css");
+
+.footer_part {
+    margin-top: 128px;
+    background-color: #F47B34;
+    padding: 80px 120px 40px 120px;
+}
+
+
+.legal_part a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+.footer_part .footer_contain .second_part{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer_part .footer_contain .company_info .Body_B1{
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 24px;
+
+}
+
+.footer_part .footer_contain .second_part .solution_part h1{
+    font-family:'Segoe UI';
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+    
+    
+
+}
+.footer_part .footer_contain .second_part .solution_part .solution_text p{
+    
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.footer_part .footer_contain .second_part .legal_part h1{
+   
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.footer_part .footer_contain .second_part .legal_part p{
+   
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+.footer_part .footer_contain .second_part .company_part .company_link h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.footer_part .footer_contain .second_part .legal_part .card_part_btn a button{
+    background-color: #ffffff;
+    color:#F47B34;
+    padding: 11px 12px 11px 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    text-align: left;
+    font-size: 18px;
+    
+}
+.footer_part .footer_contain .second_part .legal_part .card_part_btn a button:hover{
+    background-color: rgb(198, 188, 188);
+    color: white;
+    border: rgb(198, 188, 188);
+    
+}
+.footer_part .footer_contain .second_part .legal_part .card_part_btn a button img{
+    padding: 8px;
+}
+
+
+
+
+.footer_part .footer_contain .legal_part{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer_part .footer_contain .legal_part .address , .call , .email {
+    display: flex;
+    gap: 8px;
+}
+
+
+.footer_part .footer_contain .solution_part .solution_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.footer_part .footer_contain .company_part .company_link{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer_part .footer_contain .company_part .company_link p{
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer_part .footer_contain .company_part .company_link{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer_part .copyright_text h2{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 80px;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+
+
+@media (max-width: 1025px) {
+
+    .footer_part .footer_contain .solution_part .solution_text {
+        gap: 10px;
+    }
+
+    .footer_part .footer_contain .company_part .company_link {
+        gap: 10px;
+    }
+
+    .footer_part .footer_contain .legal_part {
+        gap: 10px;
+    }
+
+    .footer_part .footer_contain .second_part .legal_part .card_part_btn a button {
+     
+        padding: 10px 10px 5px 12px;
+        font-size: 17px;
+    }
+
+    .footer_part .copyright_text h2 {
+       margin-top: 50px;
+        
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .footer_part .footer_contain .second_part {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .footer_part .footer_contain .second_part .legal_part .card_part_btn a button {
+        padding: 7px 10px 7px 16px;
+    }
+
+    .footer_part {
+        
+        padding: 40px 60px 20px 60px;
+    }
+
+    .footer_part .copyright_text h2 {
+        margin-top: 34px;
+         
+    }
+
+    .footer_part .footer_contain .solution_part .solution_text {
+        gap: 10px;
+    }
+
+    .footer_part .footer_contain .company_part .company_link {
+        gap: 10px;
+    }
+
+    .footer_part .footer_contain .legal_part {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 521px) {
+
+    .footer_part {
+        padding: 25px 30px 15px 30px;
+    }
+
+    .footer_part .copyright_text h2 {
+        text-align: left;
+    }
+
+    .footer_part .footer_contain .solution_part .solution_text {
+        gap: 8px;
+    }
+
+    .footer_part .footer_contain .company_part .company_link {
+        gap: 8px;
+    }
+
+    .footer_part .footer_contain .legal_part {
+        gap: 8px;
+    }
+
+}
+

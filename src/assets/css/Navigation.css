@@ -1,0 +1,128 @@
+@import url("./font.css");
+
+:root {
+    --button-bg-color: #F47B34;
+    --box-shadow: 0px 13px 19px 0px #FFFFFF;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #F47B34;
+}
+
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("../img/home-img/toglerbtn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+     
+}
+.nav-link {
+    
+color: #212B36;
+font-family: 'Segoe UI';
+font-size: 16px;
+font-weight: 600;
+text-align: left;
+}
+ 
+.banner_part {
+    background-image: url('../img/banner-img/background-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_part .navigation_part {
+    padding-top: 76px;
+    padding-bottom: 68px;
+}
+
+.banner_part .navigation_part ul a {
+    color: yellow;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.navigation_part .card_part_btn a button {
+    background-color: var(--button-bg-color);
+    color: white;
+    padding: 14px 32px;
+    border-radius: 10px;
+    border: 1px solid var(--button-bg-color);
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    text-align: left;
+    font-size: 18px;
+     
+}
+
+.navigation_part .card_part_btn a button:hover {
+        background-color: rgb(198, 188, 188);
+        color: white;
+        border: rgb(198, 188, 188);
+}
+
+.navigation_part .card_part_btn a button img {
+    padding-left: 10px;
+     
+     
+}
+
+@media (max-width: 1441px) {
+    .navigation_part .header_icon_img {
+        width: 129px;
+        height: 48px;
+        cursor: pointer;
+    }
+    .navigation_part .card_part_btn a button img {
+        height: 24px;
+        width: 24px;
+         
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navigation_part .card_part_btn a button {
+        padding: 8px 12px;
+        font-size: 13px;
+      
+    }
+
+    .navigation_part .header_icon_img {
+        width: 125px;
+        
+    }
+}
+@media (max-width: 421px) {
+
+    .navigation_part .card_part_btn a button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .navigation_part .header_icon_img {
+        width: 95px;
+    }
+
+    .navigation_part .card_part_btn a button img {
+        padding-left: 6px;
+    }
+}
+
+
+

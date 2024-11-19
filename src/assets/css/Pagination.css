@@ -1,0 +1,102 @@
+@import url("./font.css");
+
+
+.active>.page-link, .page-link.active {
+  z-index: 3;
+  color: #F47B34;
+  background-color: #F1F5F9;
+  border: #F1F5F9;
+  border: none;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+  font-size: var(--bs-pagination-font-size);
+  color: #212B36;
+  text-decoration: none;
+  border: none;
+}
+
+.disabled>.page-link, .page-link.disabled {
+  pointer-events: none;
+  border: none;
+  
+}
+
+.page-link:focus {
+  z-index: 3;
+  color: #F1F5F9 !important;
+  outline: 0;
+  box-shadow: none;
+   
+}
+.page-link:hover {
+    color: #F47B34;
+}
+
+.news-section .Report_card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0px 12px 24px -4px #919EAB1F, 0px 0px 2px 0px #919EAB33;
+    border-radius: 15px;
+} 
+  .news-section .report_img {
+      width: 100%;
+      height: auto;
+    }
+.news-section .Report_card .report_information {
+    padding: 24px;
+  }
+
+
+  .news-section .card_title{
+        color: #2973AB;
+        font-family: 'Segoe UI';
+        font-size: 15px;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 8px;
+  }
+  
+  .news-section .card_description{
+            margin-bottom: 16px;
+            color: #637381;
+            font-family: 'Segoe UI';
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+
+  }
+
+  .news-section .Report_card .report_information .border {
+    height: 0.8px;
+    width: 100%;
+    color: #919EAB33;
+    margin-bottom: 15px;
+  }
+
+  .news-section .report_Date{
+        color: #212B36;
+        font-family: 'Segoe UI';
+        font-size: 12px;
+        font-weight: 400;
+        text-align: right;
+        margin: 0;
+}
+  .news-section .page_btn{
+        margin-top: 64px;
+        margin-bottom: 120px;
+}
+  
+  
+@media (max-width: 768px) {
+  .news-section .page_btn {
+    margin-top: 30px;
+    margin-bottom: 56px;
+  }
+
+}
+ 

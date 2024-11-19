@@ -1,0 +1,1232 @@
+@import url("./font.css");
+
+.benner_Section {
+
+  width: 95vw;
+  margin: 0 auto;
+  margin-top: 28px;
+  /* background-image: url("../img/home-img/header-img.png"); */
+  background-image: url("../img/home-img/lowyer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 142px;
+  padding-left: 90px;
+  padding-bottom: 142px;
+  position: relative;
+  border-radius: 15px;
+  /* height: 84vh; */
+}
+
+.benner_Section .benner_part .benner_text_part h1 {
+  font-family: 'Segoe UI';
+  font-size: 88px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  width: 44%;
+
+}
+
+.slider_Section1 {
+  display: none;
+}
+
+.slider_Section {
+  display: block;
+}
+
+.benner_Section .benner_part .benner_text_part h4 {
+  font-family: 'Segoe UI';
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  width: 34%;
+  margin-top: 32px;
+}
+
+ 
+.benner_Section .slider_Section {
+  position: absolute;
+  right: 4%;
+  top: 84%;
+  padding: 25px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.typewriter_section {
+  background-image: url("../img/home-img/typewriter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 124px 282px;
+  margin-top: 280px;
+  border-radius: 15px;
+  opacity: 1;
+  position: relative;
+
+}
+
+.typewriter_section .coloroverlap{
+  position: absolute;
+  background-color: #00000099;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  border-radius: 15px;
+}
+
+.typewriter_section .typewriter_text_part {
+  position: relative;
+  z-index: 2;
+}
+
+.typewriter_section .typewriter_text_part h4 {
+  font-family: 'Segoe UI';
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  
+
+}
+
+.typewriter_section .typewriter_text_part p {
+  font-family: ' Segoe UI';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+  color: #ffffff;
+  width: 64%;
+  margin: 0 auto;
+
+}
+
+/* Main container styling */
+
+.OnlineSchadestaat {
+  margin-top: 120px;
+}
+
+
+
+.OnlineSchadestaat .info_section .text-container {
+  background-color: #FDEEE5;
+  padding: 72px 72px 72px 200px;
+  margin-left: 385px;
+  width: 70%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.OnlineSchadestaat .info_section .text-container .image-container {
+  position: absolute;
+  top: 60px;
+  right: 69%;
+  display: block;
+
+}
+
+.OnlineSchadestaat .info_section .image-container .responsive-image {
+  border-radius: 10px;
+}
+
+.OnlineSchadestaat .info_section .text-container h2 {
+  font-family: 'Segoe UI';
+  font-size: 48px;
+  font-weight: 600;
+  text-align: left;
+  width: 94%;
+  margin-bottom: 20px;
+  padding-left: 120px;
+}
+
+.OnlineSchadestaat .info_section .text-container p {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 120px;
+
+}
+
+.OnlineSchadestaat .info_section .image_hide {
+  display: none;
+
+}
+
+
+
+.Benefits_section {
+  margin-top: 187px;
+}
+
+.Benefits_part .Benefits_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.Benefits_part .Benefits_heading h1 {
+  color: #2973AB;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: left;
+  font-family: 'Segoe UI';
+
+}
+
+.Benefits_part .Benefits_heading a button {
+  padding: 3px 15px;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  text-align: left;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  color: #919EAB;
+
+}
+
+.Benefits_part .Benefits_heading a button img {
+  padding-left: 8px;
+}
+
+.Benefits_card .Calculation_card {
+  background-color: #EDF9FF;
+  padding: 24px;
+  border-radius: 15px;
+}
+
+.Benefits_card .Calculation_card .logo_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Benefits_card .Calculation_card .cal_log {
+  background-color: #4DBFFF;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+.Benefits_card .Calculation_card .Calculation_info h4 {
+  width: 81%;
+  margin-bottom: 0;
+  color: #212B36;
+  margin-top: 24px;
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.Benefits_card .Calculation_card .Calculation_info p {
+  width: 74%;
+  margin-bottom: 0;
+  color: #57565B;
+  margin-top: 16px;
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+
+}
+
+.Benefits_card .Calculation_card .arrow_log a button {
+
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 19px;
+
+}
+
+.Benefits_card .Calculation_card .arrow_log a button:hover{
+  background-color: #2973AB;
+} 
+
+.Benefits_card .Calculation_card .arrow_log a button img {
+  height: 10px;
+  width: 10px;
+
+}
+
+.Benefits_card .comunitty_card {
+  background-color: #EDFFF2;
+  padding: 24px;
+  border-radius: 15px;
+}
+
+.Benefits_card .comunitty_card .logo_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Benefits_card .comunitty_card .comunitty_log {
+  background-color: #14B441;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.Benefits_card .comunitty_card .comunitty_info h4 {
+  width: 81%;
+  margin-bottom: 0;
+  color: #212B36;
+  margin-top: 24px;
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.Benefits_card .comunitty_card .comunitty_info p {
+  width: 74%;
+  margin-bottom: 0;
+  color: #57565B;
+  margin-top: 16px;
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+
+}
+
+.Benefits_card .comunitty_card .arrow_log a button {
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 19px;
+
+}
+.Benefits_card .comunitty_card .arrow_log a button:hover {
+   background-color: #2973AB;
+}
+
+.Benefits_card .comunitty_card .arrow_log a button img {
+  height: 10px;
+  width: 10px;
+
+}
+
+.Benefits_card .pdf_card {
+  background-color: #FFFBEB;
+  padding: 24px;
+  border-radius: 15px;
+}
+
+.Benefits_card .pdf_card .pdf_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Benefits_card .pdf_card .pdf_part .pdf_logo {
+  background-color: #EEC01D;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+.Benefits_card .pdf_card .pdf_info h4 {
+  margin-bottom: 0;
+  color: #212B36;
+  margin-top: 24px;
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.Benefits_card .pdf_card .pdf_info p {
+  margin-bottom: 0;
+  color: #57565B;
+  margin-top: 16px;
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+
+}
+
+.Benefits_card .pdf_card .arrow_log a button {
+
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 19px;
+
+}
+.Benefits_card .pdf_card .arrow_log a button:hover {
+  background-color: #2973AB;
+}
+
+.Benefits_card .pdf_card .arrow_log a button img {
+  height: 10px;
+  width: 10px;
+
+}
+
+.Benefits_card .Guidelines_card {
+  background-color: #F9F5FF;
+  padding: 24px;
+  border-radius: 15px;
+}
+
+.Benefits_card .Guidelines_card .Guidelines_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Benefits_card .Guidelines_card .Guidelines_part .Guidelines_logo {
+  background-color: #994CFD;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+
+.Benefits_card .Guidelines_card .Guidelines_info h4 {
+  margin-bottom: 0;
+  color: #212B36;
+  margin-top: 24px;
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+
+
+}
+
+.Benefits_card .Guidelines_card .Guidelines_info p {
+  margin-bottom: 0;
+  color: #57565B;
+  margin-top: 16px;
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+
+
+
+}
+
+.Benefits_card .Guidelines_card .arrow_log a button {
+
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 19px;
+
+}
+.Benefits_card .Guidelines_card .arrow_log a button:hover {
+    background-color: #2973AB;
+}
+
+.Benefits_card .Guidelines_card .arrow_log a button img {
+  height: 10px;
+  width: 10px;
+
+}
+
+.Benefits_card .warning_card {
+  background-color: #F3D9D9;
+  padding: 24px;
+  border-radius: 15px;
+}
+
+.Benefits_card .warning_card .warning_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Benefits_card .warning_card .warning_part .warning_logo {
+  background-color: #B41414;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.Benefits_card .warning_card .warning_info h4 {
+  margin-bottom: 0;
+  color: #212B36;
+  margin-top: 24px;
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.Benefits_card .warning_card .warning_info p {
+  margin-bottom: 0;
+  color: #57565B;
+  margin-top: 16px;
+
+}
+
+.Benefits_card .warning_card .arrow_log a button {
+
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 19px;
+
+}
+.Benefits_card .warning_card .arrow_log a button:hover {
+  background-color: #2973AB;
+
+}
+
+.Benefits_card .warning_card .arrow_log a button img {
+  height: 10px;
+  width: 10px;
+
+}
+
+.home_section .obligation_demo_section {
+  margin-top: 187px;
+
+}
+
+.home_section .obligation_demo_section .info_section .text-container {
+  background-color: #FDEEE5;
+  padding: 72px 72px 72px 200px;
+  margin-left: 395px;
+  width: 70%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.home_section .obligation_demo_section .info_section .text-container h2 {
+  font-family: 'Segoe UI';
+  font-size: 48px;
+  font-weight: 600;
+  text-align: left;
+  color: #212B36;
+  width: 76%;
+  margin-bottom: 20px;
+  padding-left: 120px;
+
+}
+
+.home_section .obligation_demo_section .info_section .text-container p {
+
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #212B36CC;
+  padding-left: 120px;
+  width: 88%;
+
+}
+
+.home_section .obligation_demo_section .info_section .text-container .obligation_btn {
+
+  padding-left: 120px;
+}
+
+.home_section .obligation_demo_section .info_section .text-container button {
+  background-color: #F47B34;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+
+}
+.home_section .obligation_demo_section .info_section .text-container button:hover {
+  background-color: rgb(198, 188, 188);
+  color: white;
+  border: rgb(198, 188, 188);
+
+}
+
+.home_section .obligation_demo_section .info_section .text-container button img {
+  padding-left: 8px;
+}
+
+
+.home_section .obligation_demo_section .info_section .text-container .image-container {
+  position: absolute;
+  bottom: 64px;
+  right: 69%;
+  display: block;
+}
+
+.home_section .obligation_demo_section .info_section .image-container .responsive-image {
+  border-radius: 10px;
+}
+
+.home_section .obligation_demo_section .info_section .image_hide {
+  display: none;
+}
+
+
+.home_section .news_section {
+  margin-top: 120px;
+}
+
+.news_part .news_heading .heading1 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Segoe UI';
+  color: #2973AB;
+  margin-bottom: 64px;
+}
+
+.news_part .news_report .news_card {
+  background-color: #ffffff;
+  box-shadow: 0px 13px 19px 0px #FFFFFF;
+}
+
+
+.news_part .news_report .news_card .report_img img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+
+.news_part .news_report .news_card .news_info {
+  padding: 24px;
+}
+
+
+.news_part .news_report .news_card .news_info h4 {
+  color: #2973AB;
+  font-family: 'Segoe UI';
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+
+}
+
+.news_part .news_report .news_card .news_info p {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 12px;
+  color: #637381;
+
+}
+
+.news_part .news_report .news_card .news_info .date_part {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  align-items: center;
+
+}
+
+.news_part .news_report .news_card .news_info .date_part h6 {
+  color: #212B36;
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+
+}
+
+.news_part .news_report .new_card_right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.news_part .news_report .news_card1 {
+  display: flex;
+
+}
+
+.news_part .news_report .news_card1 .report_img1 img {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.news_part .news_report .news_card1 .news_info {
+  padding: 24px;
+}
+
+.news_part .news_report .news_card1 .news_info .border {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #919EAB33;
+  
+}
+
+.news_part .news_report .news_card1 .news_info h4 {
+  color: #2973AB;
+  font-family: 'Segoe UI';
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+
+}
+
+.news_part .news_report .news_card1 .news_info p {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 12px;
+  color: #637381;
+
+}
+
+.news_part .news_report .news_card1 .news_info .date_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.news_part .news_report .news_card1 .news_info .date_part h6 {
+  color: #212B36;
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+
+}
+
+ 
+
+/* @media (min-width: 1579px) {
+  
+  .slider-container {
+    max-width: 469px;
+    
+}
+  
+ .benner_Section .slider_Section {
+    position: absolute;
+    left: 62.1%;
+    top: 84%;
+
+
+}
+} */
+
+
+@media (max-width: 1577px) {
+  .benner_Section .benner_part .benner_text_part h1 {
+    width: 58%;
+}
+}
+/* @media (max-width: 1441px) {
+  .benner_Section .slider_Section {
+    position: absolute;
+    top: 85%;
+    left: 63%;
+}
+} */
+@media (max-width: 1400px) {
+  .typewriter_section .typewriter_text_part h4 {
+    font-size: 39px;
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container h2 {
+    font-size: 34px;
+  }
+
+
+}
+
+@media (max-width: 1367px) {
+  .OnlineSchadestaat .info_section .text-container {
+    margin-left: 0px;
+    width: 100%;
+    padding: 72px;
+  }
+
+  .OnlineSchadestaat .info_section .image_hide {
+    display: block;
+  }
+
+  .OnlineSchadestaat .info_section .text-container .image-container {
+    display: none;
+  }
+
+  .OnlineSchadestaat .info_section .image-container .responsive-image {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .OnlineSchadestaat .info_section .text-container h2 {
+    padding-left: 0px;
+  }
+
+  .OnlineSchadestaat .info_section .text-container p {
+    padding-left: 0px;
+  }
+
+  .Benefits_card .Calculation_card .cal_log {
+    padding: 15px;
+  }
+
+  .Benefits_card .warning_card .warning_part .warning_logo {
+    padding: 15px;
+  }
+
+  .Benefits_card .Guidelines_card .Guidelines_part .Guidelines_logo {
+    padding: 15px;
+  }
+
+  .Benefits_card .pdf_card .pdf_part .pdf_logo {
+    padding: 15px;
+  }
+
+  .Benefits_card .comunitty_card .comunitty_log {
+    padding: 15px;
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container {
+    padding: 72px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container .image-container {
+    display: none;
+  }
+
+  .home_section .obligation_demo_section .info_section .image_hide {
+    display: block;
+  }
+
+
+  .home_section .obligation_demo_section .info_section .image-container .responsive-image {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container h2 {
+
+    padding-left: 0px;
+
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container p {
+
+    padding-left: 0px;
+
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container .obligation_btn {
+    padding-left: 0px;
+  }
+
+}
+
+@media (max-width: 1281px) {
+
+  .typewriter_section .typewriter_text_part h4 {
+    font-size: 32px;
+  }
+
+  .typewriter_section .typewriter_text_part p {
+    width: 69%;
+  }
+
+  .typewriter_section {
+    padding: 96px 90px;
+  }
+}
+
+@media (max-width: 1225px) {
+
+  .benner_Section .benner_part .benner_text_part h1 {
+    width: 76%;
+  }
+}
+
+
+@media (max-width: 1121px) {
+
+  .benner_Section {
+    padding-top: 65px;
+    padding-left: 54px;
+    padding-bottom: 88px;
+  }
+
+  .benner_Section .slider_Section {
+    
+    padding-top: 25px;
+     
+}
+
+  .benner_Section .benner_part .benner_text_part h1 {
+    font-size: 69px;
+    width: 92%;
+  }
+
+  .benner_Section .benner_part .benner_text_part h4 {
+    width: 34%;
+  }
+
+  .typewriter_section {
+    margin-top: 292px;
+     
+}
+}
+
+@media (max-width: 1025px) {
+  .OnlineSchadestaat .info_section .text-container {
+    order: 2;
+  }
+
+  .OnlineSchadestaat .info_section .text-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .OnlineSchadestaat .info_section .text-container p {
+    font-size: 1rem;
+  }
+
+  .news_part .news_report .news_card1 .news_info p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+
+   
+
+  .OnlineSchadestaat {
+    margin-top: 83px;
+  }
+
+  .Benefits_section {
+    margin-top: 86px;
+  }
+
+  .home_section .obligation_demo_section {
+    margin-top: 114px;
+  }
+
+  .benner_Section .benner_part .benner_text_part h1 {
+    font-size: 47px;
+    width: 65%;
+  }
+
+  .benner_Section .benner_part .benner_text_part h4 {
+    width: 37%;
+  }
+
+ 
+  .typewriter_section {
+    padding: 61px 0px;
+  }
+  .Benefits_part .Benefits_heading h1 {
+    font-size: 31px;
+  }
+
+  .Benefits_card .comunitty_card {
+    margin-top: 1rem;
+  }
+
+  .Benefits_card .Guidelines_card {
+    margin-top: 1rem;
+  }
+
+  .Benefits_card .warning_card {
+    margin-top: 1rem;
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container {
+    padding: 50px;
+
+  }
+
+  .home_section .news_section {
+    margin-top: 60px;
+  }
+
+  .news_part .news_report {
+    margin-bottom: 30px;
+  }
+
+
+  .news_part .news_heading .heading1 {
+    font-size: 30px;
+    text-align: left;
+   
+  }
+
+  .news_part .news_report .news_card1 {
+    margin-top: 16px;
+
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .benner_Section {
+    height: 610px;
+  }
+
+  .benner_Section {
+    padding-top: 86px;
+    padding-left: 16px;
+    padding-bottom: 0px;
+  }
+
+  .benner_Section .benner_part .benner_text_part h4 {
+    width: 60%;
+  }
+
+  .slider_Section1 {
+    display: block;
+  }
+
+  .slider_Section {
+    display: none;
+  }
+
+
+  .typewriter_section {
+    margin-top: 60px;
+
+  }
+
+  .typewriter_section .typewriter_text_part h4 {
+    font-size: 20px;
+  }
+
+  .typewriter_section .typewriter_text_part p {
+    width: 74%;
+    font-size: 13px;
+  }
+
+  .OnlineSchadestaat .info_section .text-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .OnlineSchadestaat .info_section .text-container p {
+    font-size: 0.9rem;
+  }
+
+  .OnlineSchadestaat .info_section .text-container {
+    padding: 20px;
+  }
+
+
+  .Benefits_part .Benefits_heading h1 {
+    font-size: 20px;
+  }
+
+  .Benefits_card .Calculation_card {
+    padding: 18px;
+  }
+
+  .Benefits_card .comunitty_card {
+    padding: 18px;
+  }
+
+  .Benefits_card .pdf_card {
+    padding: 18px;
+  }
+
+  .Benefits_card .Guidelines_card {
+    padding: 18px;
+  }
+
+  .Benefits_card .warning_card {
+    padding: 18px;
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container {
+    padding: 12px;
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container h2 {
+    font-size: 22px;
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container p {
+    font-size: 12px;
+  }
+
+  .home_section .obligation_demo_section .info_section .text-container button {
+    padding: 10px 15px;
+  }
+
+
+
+}
+
+@media (max-width: 621px) {
+
+  .benner_Section .benner_part .benner_text_part h1 {
+    width: 100%;
+  }
+
+  .benner_Section .benner_part .benner_text_part h4 {
+    width: 80%;
+  }
+
+}
+
+
+@media (max-width: 521px) {
+
+  .benner_Section .benner_part .benner_text_part h1 {
+    font-size: 40px;
+  }
+
+  .benner_Section .benner_part .benner_text_part h4 {
+    width: 100%;
+  }
+
+  .Benefits_part .Benefits_heading h1 {
+    font-size: 15px;
+  }
+
+
+  .Benefits_card .Calculation_card .Calculation_info h4 {
+    width: 100%;
+
+  }
+
+  .Benefits_card .Calculation_card .Calculation_info p {
+    width: 100%;
+  }
+
+  .Benefits_card .comunitty_card .comunitty_info h4 {
+    width: 100%;
+  }
+
+  .Benefits_card .comunitty_card .comunitty_info p {
+    width: 100%;
+  }
+
+  .news_part .news_heading .heading1 {
+    font-size: 25px;
+    
+  }
+
+  .news_part .news_heading h1 {
+    font-size: 30px;
+  }
+
+  .news_part .news_report .news_card .news_info {
+    padding: 12px;
+  }
+
+  .news_part .news_heading h1 {
+    font-size: 25px;
+
+  }
+
+  .news_part .news_report .news_card1 {
+    flex-direction: column;
+  }
+
+  .news_part .news_report .news_card1 .report_img1 img {
+    border-radius: 15px;
+    width: 100%;
+
+  }
+
+  .news_part .news_report .news_card1 .news_info {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 421px) {
+
+  .benner_Section .benner_part .benner_text_part h1 {
+    font-size: 35px;
+  }
+
+  .benner_Section .benner_part .benner_text_part h4 {
+    font-size: 19px;
+  }
+
+  .typewriter_section .typewriter_text_part h4 {
+    font-size: 13px;
+  }
+
+  .typewriter_section .typewriter_text_part p {
+    width: 94%;
+    font-size: 7px;
+  }
+
+  .Benefits_part .Benefits_heading h1 {
+    font-size: 12px;
+  }
+
+  .Benefits_part .Benefits_heading {
+    display: flex;
+    align-items: baseline;
+  }
+
+
+  .Benefits_part .Benefits_heading a button {
+    font-size: 12px;
+
+  }
+
+  .news_part .news_heading .heading1 {
+    font-size: 15px;
+    
+  }
+
+  .news_part .news_heading h1 {
+    font-size: 15px;
+
+  }
+
+  .Benefits_card .Calculation_card .cal_log {
+    padding: 10px;
+  }
+
+  .Benefits_card .comunitty_card .comunitty_log {
+    padding: 10px;
+  }
+
+  .Benefits_card .pdf_card .pdf_part .pdf_logo {
+    padding: 10px;
+  }
+
+  .Benefits_card .Guidelines_card .Guidelines_part .Guidelines_logo {
+    padding: 10px;
+  }
+
+  .Benefits_card .warning_card .warning_part .warning_logo {
+    padding: 10px;
+  }
+
+
+}
